@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Alaa Alawneh</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h2>Alaa Alawneh</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="album.html">Album</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Blog</h1>
+                <p>Thoughts on software development and technology</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="blog-layout">
+                    <div class="blog-main">
+                        <article class="blog-post">
+                            <h2>Building Scalable Backend Systems</h2>
+                            <div class="post-meta">
+                                <span>February 10, 2026</span>
+                                <span>•</span>
+                                <span>5 min read</span>
+                            </div>
+                            <img src="images/blog1.jpg" alt="Backend Systems">
+                            <p>When building backend systems that need to scale, there are several key principles to keep in mind. In this article, I'll share my experience developing distributed systems and the lessons learned along the way.</p>
+                            
+                            <h3>Understanding Scale</h3>
+                            <p>Scalability isn't just about handling more users. It's about designing systems that can grow gracefully without requiring complete rewrites. This means thinking about architecture from day one.</p>
+
+                            <h3>Key Principles</h3>
+                            <p>First, embrace stateless design wherever possible. Stateless services are easier to scale horizontally and more resilient to failures. Second, implement proper caching strategies to reduce database load and improve response times.</p>
+
+                            <p>Third, use asynchronous processing for long-running tasks. Job queues and message brokers help decouple components and improve system responsiveness.</p>
+
+                            <h3>Monitoring and Observability</h3>
+                            <p>You can't improve what you don't measure. Implementing comprehensive logging, metrics, and tracing from the start makes debugging and optimization much easier as your system grows.</p>
+                        </article>
+
+                        <article class="blog-post">
+                            <h2>The Importance of Code Quality</h2>
+                            <div class="post-meta">
+                                <span>February 5, 2026</span>
+                                <span>•</span>
+                                <span>4 min read</span>
+                            </div>
+                            <img src="images/blog2.jpg" alt="Clean Code">
+                            <p>Writing clean, maintainable code is one of the most important skills for any developer. It's not just about making code work—it's about making code that others (including your future self) can understand and modify.</p>
+
+                            <h3>What is Code Quality?</h3>
+                            <p>Code quality encompasses readability, maintainability, efficiency, and correctness. It's about writing code that does what it's supposed to do while being easy to understand and modify.</p>
+
+                            <h3>Best Practices</h3>
+                            <p>Use meaningful variable and function names. Keep functions small and focused on a single task. Write comments that explain why, not what. Follow consistent coding standards and style guides.</p>
+
+                            <p>Implement proper error handling. Don't just catch exceptions and ignore them—handle errors gracefully and provide useful feedback. Write unit tests to verify your code works as expected.</p>
+
+                            <h3>Code Reviews</h3>
+                            <p>Regular code reviews are essential for maintaining quality. They catch bugs early, share knowledge across the team, and help establish best practices.</p>
+                        </article>
+
+                        <article class="blog-post">
+                            <h2>Introduction to Distributed Systems</h2>
+                            <div class="post-meta">
+                                <span>January 28, 2026</span>
+                                <span>•</span>
+                                <span>6 min read</span>
+                            </div>
+                            <img src="images/blog3.jpg" alt="Distributed Systems">
+                            <p>Distributed systems are everywhere in modern software development. Understanding their principles is crucial for building reliable, scalable applications.</p>
+
+                            <h3>What Makes Systems Distributed?</h3>
+                            <p>A distributed system consists of multiple components running on different machines that work together to achieve a common goal. This could be web servers, databases, cache servers, and more.</p>
+
+                            <h3>Challenges</h3>
+                            <p>Distributed systems introduce complexity. Network failures, data consistency issues, and coordination problems are common challenges that need to be addressed.</p>
+
+                            <h3>Solutions</h3>
+                            <p>Use proper consensus algorithms for coordination. Implement circuit breakers to handle failures gracefully. Design for eventual consistency when strong consistency isn't required.</p>
+                        </article>
+                    </div>
+
+                    <aside class="blog-sidebar">
+                        <div class="sidebar-widget">
+                            <h3>Categories</h3>
+                            <ul>
+                                <li><a href="#">Backend Development</a></li>
+                                <li><a href="#">System Design</a></li>
+                                <li><a href="#">Best Practices</a></li>
+                                <li><a href="#">Tutorials</a></li>
+                                <li><a href="#">Career Advice</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar-widget">
+                            <h3>Recent Posts</h3>
+                            <ul>
+                                <li><a href="#">Building Scalable Backend Systems</a></li>
+                                <li><a href="#">The Importance of Code Quality</a></li>
+                                <li><a href="#">Introduction to Distributed Systems</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar-widget">
+                            <h3>Tags</h3>
+                            <div class="tags">
+                                <span>Node.js</span>
+                                <span>Python</span>
+                                <span>Database</span>
+                                <span>Architecture</span>
+                                <span>API</span>
+                                <span>Performance</span>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Alaa Alawneh</h4>
+                    <p>Software Developer & System Architect</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="return.html">Return Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alaa Alawneh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

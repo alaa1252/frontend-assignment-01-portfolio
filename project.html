@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details - Alaa Alawneh</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h2>Alaa Alawneh</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="album.html">Album</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <section class="page-header">
+        <div class="container">
+            <h1>SHARE-RIDE</h1>
+            <p>AI-Powered, Multi-Tenant Ride-Hailing SaaS Platform</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <article class="project-detail">
+                <div class="project-overview">
+                    <img src="images/share-ride.jpg" alt="SHARE-RIDE Platform">
+                </div>
+
+                <h2>Project Overview</h2>
+                <p>SHARE-RIDE is a production-grade, AI-powered ride-hailing platform inspired by Uber, built as a full SaaS system. It features real-time ride tracking, smart AI-based driver matching, Stripe-powered payments, admin dashboards, and multi-tenant fleet management.</p>
+
+                <p>The system is designed to be scalable, secure, and enterprise-ready — allowing transportation companies to launch their own branded ride service using a single powerful infrastructure.</p>
+
+                <h2>Core Features</h2>
+                <ul>
+                    <li>Real-time driver tracking using Mapbox and Socket.IO</li>
+                    <li>AI-powered smart driver matching algorithm</li>
+                    <li>Complete ride lifecycle management (request → accept → complete)</li>
+                    <li>Integrated Stripe payment processing</li>
+                    <li>Admin dashboard with live ride monitoring</li>
+                    <li>In-app chat and SOS emergency system</li>
+                    <li>AI sentiment analysis for ride reviews</li>
+                    <li>SaaS multi-tenant fleet support with billing</li>
+                </ul>
+
+                <h2>Technologies Used</h2>
+                <div class="tech-list">
+                    <ul>
+                        <li>Node.js + Express + TypeScript (Backend)</li>
+                        <li>MongoDB Atlas + Redis</li>
+                        <li>Firebase Authentication + FCM</li>
+                        <li>Socket.IO for real-time communication</li>
+                        <li>Next.js + TailwindCSS (Web Admin)</li>
+                        <li>React Native + Expo (Mobile App)</li>
+                        <li>Mapbox SDK (Live Maps & Routing)</li>
+                        <li>Stripe API (Payments & Billing)</li>
+                        <li>OpenAI GPT (AI Feedback & Moderation)</li>
+                        <li>Docker + CI/CD Deployment Pipeline</li>
+                    </ul>
+                </div>
+
+                <h2>System Architecture</h2>
+                <p>SHARE-RIDE follows a scalable microservice-ready architecture:</p>
+                <ol>
+                    <li><strong>Backend API:</strong> Handles authentication, rides, payments, AI logic, and tenant isolation</li>
+                    <li><strong>Realtime Server:</strong> Socket.IO namespaces for rides, chat, and admin updates</li>
+                    <li><strong>Mobile Apps:</strong> Rider and Driver applications built with React Native</li>
+                    <li><strong>Admin Dashboard:</strong> Live monitoring, analytics, and manual dispatch</li>
+                    <li><strong>SaaS Layer:</strong> Tenant-based isolation with subscription billing</li>
+                </ol>
+
+                <h2>AI & Smart Dispatch</h2>
+                <p>The platform includes an intelligent driver matching algorithm that calculates a weighted score based on distance, rating, response time, and ride history. AI also analyzes rider feedback using sentiment analysis to improve driver performance insights.</p>
+
+                <p>Advanced features include predictive ride demand, anomaly detection for suspicious routes, and traffic-aware ETA optimization.</p>
+
+                <h2>Deployment & DevOps</h2>
+                <p>The system is fully containerized using Docker and deployed via CI/CD pipelines. Monitoring includes Sentry error tracking, uptime monitoring, HTTPS security, rate limiting, and Redis caching for performance optimization.</p>
+
+                <h2>Results & Performance</h2>
+                <p>SHARE-RIDE achieves enterprise-level performance and reliability:</p>
+
+                <aside class="highlight-box">
+                    <h3>Performance Metrics</h3>
+                    <ul>
+                        <li>API Latency: &lt; 300 ms</li>
+                        <li>Driver Match Time: &lt; 5 seconds</li>
+                        <li>System Uptime: &gt; 95%</li>
+                        <li>Code Coverage: &gt; 70%</li>
+                        <li>Lighthouse Score: &gt; 90</li>
+                    </ul>
+                </aside>
+
+                <div class="project-navigation">
+                    <a href="portfolio.html" class="btn btn-secondary">← Back to Portfolio</a>
+                    <a href="contact.html" class="btn btn-primary">Discuss This Project</a>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Alaa Alawneh</h4>
+                    <p>Software Developer & System Architect</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="return.html">Return Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alaa Alawneh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
